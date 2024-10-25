@@ -1,0 +1,43 @@
+.photo-item {
+  cursor: pointer;
+  text-align: center;
+}
+
+.photo-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.loading, .error, .end {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.photo-detail {
+  text-align: center;
+  padding: 20px;
+}
+
+.photo-detail img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+}
+
+.photo-detail button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border: 2px solid #000;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.photo-detail button:hover {
+  background-color: #000;
+  color: #fff;
+}
